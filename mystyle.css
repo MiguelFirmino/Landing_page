@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    display: flex;
+    font-family: monospace;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(20, 55, 45);
+    height: 10vh;
+    width: 100vw;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header nav {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 50vw;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(230, 230, 230);
+    height: 72vh;
+    width: 100vw;
+}
+
+button {
+    background-color: rgb(255, 195, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Verdana';
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(5, 35, 30);
+    height: 18vh;
+    width: 100vw;
+}
+
+.top-section {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    height: 15%;
+    width: 100%;
+}
+
+.left-image {
+    display: flex;
+    align-items: center;
+    height: 85%;
+    width: 40%;
+}
+
+.left-image img {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 66%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    width: 60%;
+}
+
+.right-section p {
+    font-size: 20px;
+}
+
+.right-section button {
+    height: 45px;
+    width: 275px;
+}
+
+footer button {
+    height: 45px;
+    width: 400px;
+}
+
+@media (max-width: 1200px) {
+    header nav {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    header nav {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 850px) {
+    .left-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 775px) {
+    .right-section p {
+        padding-left: 20px;
+    }
+}
